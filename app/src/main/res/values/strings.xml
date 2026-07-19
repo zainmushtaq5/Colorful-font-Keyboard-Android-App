@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ColorText Studio</string>
+    <string name="editor_placeholder">Type here…</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="clear_all">Clear all</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="align_left">Align left</string>
+    <string name="align_center">Align center</string>
+    <string name="align_right">Align right</string>
+    <string name="font_size">Font size</string>
+    <string name="font_family">Font family</string>
+    <string name="export_png">Export as PNG</string>
+    <string name="share">Share</string>
+    <string name="copy_image">Copy image</string>
+    <string name="my_creations">My Creations</string>
+    <string name="custom_color">Custom color</string>
+    <string name="hex_input_hint">#RRGGBB</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="transparent_background">Transparent background</string>
+    <string name="resolution_scale">Resolution scale</string>
+    <string name="export_success">Image saved to gallery</string>
+    <string name="export_failure">Export failed</string>
+    <string name="clear_all_confirm_title">Clear everything?</string>
+    <string name="clear_all_confirm_body">This will remove all text and colors. This cannot be undone.</string>
+    <string name="no_creations_yet">No creations yet. Export something!</string>
+    <string name="back">Back</string>
+</resources>

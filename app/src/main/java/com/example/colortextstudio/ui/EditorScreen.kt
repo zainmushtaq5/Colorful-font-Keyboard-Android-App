@@ -12,6 +12,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.compose.ui.graphics.graphicsLayer
@@ -189,7 +190,7 @@ fun EditorScreen(
 
 /** Records draw operations into [layer] so it can be rasterized later via layer.toImageBitmap(). */
 private fun Modifier.drawWithLayer(layer: GraphicsLayer): Modifier = this.then(
-    androidx.compose.ui.draw.drawWithContent {
+    Modifier.drawWithContent {
         layer.record { this@drawWithContent.drawContent() }
         drawLayer(layer)
     }
